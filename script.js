@@ -93,3 +93,7 @@ function updateSchedule() {
     container.appendChild(card);
   });
 }
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
