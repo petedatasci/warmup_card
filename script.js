@@ -34,7 +34,11 @@ const schedule = [
     "135/90/45 deg x3 reps x3s hold per side."
   ]
   },
-  { id: "race", label: "Race Start", offset: 0 }
+  { id: "race", 
+  label: "Race Start", 
+  offset: 0,
+  details: []
+  }
 ];
 
 function parseTime(timeStr) {
