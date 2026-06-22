@@ -1,12 +1,36 @@
 .activity {
-  margin-bottom: 16px;
-  padding: 12px;
-  border-left: 4px solid indigo;
-  background: #f7f7f7;
-  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-left: 5px solid indigo;
+  background: #f6f6f6;
+  border-radius: 8px;
 }
 
 .title {
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 6px;
+}
+
+h1 {
+  font-size: 28px;
+  color: indigo;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 4px;
 }
