@@ -37,7 +37,7 @@ const schedule = [
   { id: "race", 
   label: "Race Start", 
   offset: 0,
-  details: []
+  details: ["GO!"]
   }
 ];
 
